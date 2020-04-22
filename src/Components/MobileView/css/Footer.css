@@ -1,0 +1,48 @@
+.footer 
+{
+    position: fixed;
+    background-color: #222;
+    height: 45px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1023;
+}
+.footer ul
+{ 
+   list-style: none;
+   padding-left: 0px;
+}
+
+.footer li{
+  display: inline-block;
+  width: 20%;
+}
+.footer i
+{
+    font-size: 18px;
+}
+.footer a
+{
+    line-height: 45px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+.footer span
+{
+ display: none;
+}
+.footer a.active
+{
+    line-height: 15px;
+}
+.postdiv
+{
+    margin-bottom: 50px;
+}
+.footer a.active span
+{
+    display: block;
+    font-size: 12px;
+}

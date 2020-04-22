@@ -1,0 +1,91 @@
+.topheader
+{
+    padding: 10px;
+}
+
+.topheader h1
+{
+    font-size: 25px;
+}
+
+.topheader a
+{
+    float: right;
+}
+
+.searchdiv
+{
+    padding: 10px;
+}
+.searchdiv input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 7px 20px 7px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+
+  .news-sm
+  {
+    padding: 10px;
+  }
+
+  .news-sm img
+  {
+    border-radius: 50%;
+    height: 55px;
+    float: left;
+  }
+
+  .news-sm .news-smdetails
+  {
+    float: right;
+    width: calc(100% - 65px);
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .news-sm .news-smdetails h6
+  {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #222;
+  }
+
+  .news-sm .news-smdetails p
+  {
+    color: #887f7f;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .fit-top
+  {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    height: 120px;
+    top: 0px;
+  }
+
+  .newslist
+  {
+     margin-top: 120px;
+  }
+
+  
+  

@@ -1,0 +1,215 @@
+
+form.example input[type=text] {
+    padding: 5px 5px 5px 33px;
+    font-size: 13px;
+    border: 1px solid grey;
+    float: left;
+    height: 36px;
+    width: 90%;
+    background: transparent;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 6px 0px;
+    background: transparent;
+    color: #222;
+    font-size: 17px;
+    border: 0px;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  .profile-search img
+  {
+    height: 45px;
+    width:45px;
+    position: absolute;
+    z-index: 1023;
+    border-radius: 50%;
+  }
+  form.example
+  {
+    margin-top: 3px;
+    margin-left: auto;
+    width: 96%;
+  }
+  .profile-search
+  {     
+      position: relative;
+      height: 47px;
+  }
+
+  .selected-clan
+  {
+      list-style: none;
+      padding-left: 0px;
+      margin-top: 10px;
+      white-space: nowrap;
+      overflow: auto;
+  }
+
+  .selected-clan li
+  {
+   padding-left: 5px;
+    display: inline-block;
+    padding-right: 5px;
+  }
+
+  .selected-clan::-webkit-scrollbar {
+    display: none;
+  }
+   
+   .top-he ,.profile
+   {
+     padding: 10px;
+   }
+   .post-footer
+   {
+     padding-top: 7px;
+     padding-bottom: 20px;
+   }
+  .profile img
+  {
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    float: left;
+  }
+
+  .profile .profile-detail
+  {
+    width:calc(100% - 85px);
+    float: right;
+  }
+
+  .profile .profile-detail h5
+  {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .profile .profile-detail p
+  {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  .profile .posted-date
+  {
+    float: right;
+  }
+  .post-box
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .width-100
+  {
+    width: 100%;
+  }
+  .post-footer ul
+  {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 0px;
+    list-style: none;
+  }
+  .post-footer li
+  {
+    padding: 7px 5px 7px 12px;
+    display: inline;
+  }
+  .p-comment img , .p-share img
+  {
+    height: 16px;
+    padding-top: 3px;
+  }
+  .p-comment ,.p-share ,.view
+  {
+    border: none;
+    padding: 0px;
+    background: transparent;
+  }
+  .p-down ,.votes
+  {
+    border: 1px solid #ddd;
+    background: transparent;
+    padding: 5px 10px;
+    color: #887f7f;
+    font-size: 12px;
+    border-radius: 8px;
+    border-bottom-right-radius: 0px;
+  }
+  .p-down i,.votes i
+  {
+      margin-right: 5px;
+  }
+
+  .post-content
+  {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  div.example
+  {
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    top: 6px;
+    margin-left: 5%;
+    font-size: 14px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid #f34040;
+  }
+
+  .reddy div
+  {
+    float: left;
+  }
+  .redd1
+  {
+    width: 15%;
+    padding: 5px 0px;
+  }
+  .redd1 img
+  {
+    height: 20px;
+  }
+  .redd1 span
+  {
+    float: right;
+    padding-right: 10px;
+  }
+  .redd2
+  {
+    border: 1px solid #b3aeae;
+    line-height: 28px;
+    border-radius: 8px;
+    width: 63%;
+  }
+  .redd2 a
+  {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #222;
+  }
+  .redd3
+  {
+    width: 22%;
+  }
+
+  .redd3 button
+  {
+    padding: 6px 10px;
+    border: 0px;
+    background-color: transparent;
+    font-size: 15px;
+  }

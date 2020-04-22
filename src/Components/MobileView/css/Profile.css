@@ -1,0 +1,209 @@
+.profile-head
+{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 55px;
+  box-shadow: 0px 5px 13px 0px rgba(1, 1, 64, 0.08);
+}
+
+.profile-head button:first-child
+{
+ float: left;
+ padding: 18px 10px;
+ width: 12%;
+ border: 0px;
+ background-color: transparent;
+ outline: none;
+}
+
+.profile-head .dd
+{
+ float: right;
+ outline: none;
+ border: 0px; 
+ padding: 18px 10px;
+ width: 12%;
+ background-color: transparent;
+}
+
+.profile-head h1
+{
+    width: 76%;
+    font-size: 22px;
+    line-height: 55px;
+    float: left;
+    text-align: center;
+}
+.user-profile
+{
+    margin-top: 60px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.profile-pic
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.profile-counting
+{
+    padding-left: 0px;
+    list-style: none;
+
+}
+.profile-counting li
+{
+    padding: 13px 10px;
+    display: inline-block;
+}
+
+.btn-profile
+{
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    background: #ff6600;
+    font-weight: 800;
+    color: #fff;
+    display: inline-block;
+}
+
+.user-profile .first
+{
+    margin-right: 10%;
+}
+
+.react-tabs__tab-list
+{
+padding-left: 0px;
+list-style: none;
+box-shadow: 0px 5px 10px 3px rgba(1, 1, 64, 0.08);
+}
+
+
+.tab-content
+{
+    padding: 10px;
+}
+.react-tabs__tab--selected
+{
+    font-weight: 500;
+    border-color: transparent;
+    border-bottom: 3px solid #f32525;
+}
+
+.clans-list
+{
+    padding-left: 0px;
+    list-style: none;
+    width: 100%;
+}
+.clans-list li {
+    padding: 5px 7px;
+    float: left;
+}
+
+.clans-list .labl > input + div
+{
+    padding: 5px 15px;
+}
+
+.react-tabs__tab
+{
+    width: 50%;
+    text-align: center;
+}
+
+.empty-con
+{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.profile-head .menu
+{
+    position: absolute;
+    box-shadow: 0px 5px 10px 3px rgba(1, 1, 64, 0.08);
+    top: 55px;
+    right: 0px;
+    width: 32%;
+    padding: 10px;
+}
+
+.profile-head .menu a
+{
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #222;
+}
+
+
+
+/* Notification list */
+
+.noti-head
+{
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    padding: 0px 10px;
+    box-shadow: 0px 5px 10px 3px rgba(1, 1, 64, 0.08); 
+    z-index: 1023;
+    background-color: #fff;
+}
+
+.noti-head h5
+{
+    font-size: 18px;
+    line-height: 49px;
+}
+
+.noti-head h5 i
+{
+    margin-right: 10px;
+}
+.noti-box
+{
+    margin-bottom: 20px;
+}
+.noti-box img
+{
+    height: 60px;
+    border-radius: 50%;
+    width: 60px;
+}
+
+.noti-box .noti-detail
+{
+   width:calc(100% - 70px);
+   float: right;
+}
+
+.notification-list
+{
+    margin-top: 50px;
+    padding: 30px 10px 60px 10px;
+}
+
+.noti-box .noti-detail h6
+{
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.noti-box .noti-detail p
+{
+    font-size: 12px;
+    margin-top: 10px;
+}
+ 
