@@ -11,7 +11,8 @@ import ClanPost from "./Components/MobileView/ClanPosts";
 import Profile from "./Components/MobileView/Profile";
 import Notification from "./Components/MobileView/Notifications";
 
-const App = () => {
+class App extends React.Component {
+  render() {
   return (
     <>  
     <Media query="(min-width:1024px)">
@@ -56,6 +57,7 @@ const App = () => {
    </>
     );
   
-};
+}
+}
 
 export default withRouter(App);

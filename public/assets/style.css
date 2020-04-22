@@ -7,14 +7,7 @@
     width: 6em;
   }
   
-  .container {
-    align-items: center;
-    background-color: white;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    width: 100vw;
-  }
+  
   
   @keyframes sk-scaleout {
     0% {

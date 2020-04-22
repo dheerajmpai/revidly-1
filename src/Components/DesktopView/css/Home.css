@@ -1,0 +1,147 @@
+.main-container-desktop {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ee76ad 0%, #efac78 100%);
+    background-size: 500% 500%;
+    animation: Gradient 50s ease infinite;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-container-desktop::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url(../img/bg-design.png) no-repeat scroll center bottom/cover;
+    z-index: -1;
+}
+
+.left-col {
+    transform: translate(0px, 20%);
+}
+
+.col-md-6
+{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px)
+{
+.container {
+    max-width: 960px;
+}
+}
+
+@media (min-width: 1200px)
+{
+.container{
+    max-width: 1140px;
+}
+}
+@media (min-width: 768px)
+{
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+.mt-50, .my-50 {
+    margin-top: 50px !important;
+}
+
+.phone-use {
+    width: 380px;
+    height: 100vh;
+    margin: -3rem 0 0 8rem;
+    transition: 0.3s linear all;
+    transform: rotate(0deg);
+}
+
+.phone {
+    flex-shrink: 0;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 7px;
+    border-radius: 20px;
+    background: #d9dee3;
+    align-self: center;
+    position: relative;
+}
+.phone .notch {
+    position: absolute;
+    height: 1rem;
+    width: 28%;
+    background-color: #d9dee3;
+    z-index: 9;
+    right: 50%;
+    transform: translate(50%, -5%);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.left-col h1
+{
+  font-size: 45px;
+  line-height: 60px;
+}
+.left-col h2
+{
+ font-size: 30px;
+}
+
+.left-col
+{
+    padding-top: 100px;
+}
+
+.left-col p
+{
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.phone .iframe-wrapper {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.phone iframe {
+    height: 100%;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+}
